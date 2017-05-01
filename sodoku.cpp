@@ -125,7 +125,7 @@ bool isSafe(int  matriz[TAM][TAM], int row, int col, int num)
 
 void imprimirTabuleiro(int matriz[TAM][TAM])
 {
-    printf( ANSI_COLOR_GREEN "\n - SODOKU & BACKTRACKING - \n\n" ANSI_COLOR_RESET );
+    printf( ANSI_COLOR_GREEN "\n - SuDOKU & BACKTRACKING - \n\n" ANSI_COLOR_RESET );
     
     
     printf( ANSI_COLOR_CYAN "- - - - - - - - - - - - - \n" ANSI_COLOR_RESET );
@@ -137,7 +137,7 @@ void imprimirTabuleiro(int matriz[TAM][TAM])
         for( int col=0; col<9; col++){
             
             if( matriz[row][col] == 0 ) printf("  ");
-            else printf("%d ",  matriz[row][col]);
+            else printf(ANSI_COLOR_MAGENTA "%d " ANSI_COLOR_RESET,  matriz[row][col]);
             
             if ((col+1)%3 == 0) printf( ANSI_COLOR_CYAN "| "  ANSI_COLOR_RESET );
         }

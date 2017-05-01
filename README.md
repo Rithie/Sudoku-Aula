@@ -1,5 +1,7 @@
 # Sudoku-Aula
 
+![Sudoku](https://media.giphy.com/media/l4FGDOfMgfhZX8Szu/giphy.gif)
+
 ### Clone o repositório:
 
 git clone https://github.com/Rithie/Sudoku-Aula.git
